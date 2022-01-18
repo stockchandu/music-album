@@ -1,62 +1,42 @@
 # Music Album
 A web application to see all album ,filter album , add album by artist, sort album and delete album by specific artist only.
 
+Note - Guest can filter and sort the data ```https://music-chandu-album.netlify.app/search?genre=romantic&page=1&size=8```
+
 | Visit the web app  | [Music Album](https://music-chandu-album.netlify.app/search/) |
 | --- | ---|
 
 
 <p align="center">
 
-<img src="https://miro.medium.com/max/1400/1*b3NRKpE1IPoiaOVobxbz4A.png"/>
+<img src="https://miro.medium.com/max/1400/1*EvlBhHg9269EDIGvC5I8fg.png"/>
 
 </p>
 
 ## Screenshots of student management .
-### 1. Sign up .
+### 1. Artist sign up .
 <p align="center">
-<img src="https://miro.medium.com/max/1400/1*Op1p-Cqhq_GQUJN7O92U6Q.png"/>
+<img src="https://miro.medium.com/max/1400/1*9-YTIjEUJm1Rv6WlVVt7fQ.png"/>
 </p>
 
-Note - admin login , use ``https://student-management-app-chandu.netlify.app/admin`` and use username - ```adminhelp@email.com``` and password - ```123456```
-### 2. Admin login.
+### 2. Artist login.
 <p align="center">
-<img src="https://miro.medium.com/max/1400/1*5MlqZkQ5u2D0vZlzrF-1CA.png"/>
+<img src="https://miro.medium.com/max/1400/1*0x7S-qsCfy22ZLUj9JMuWA.png"/>
 </p>
 
-### 3. Admin profile and sidebar.
+### 3. Artist profile and sidebar.
 <p align="center">
-<img src="https://miro.medium.com/max/1400/1*3WAd38lxGulDmUsr50KiEg.png"/>
+<img src="https://miro.medium.com/max/1400/1*1wwSmykw_5KPzLjHkvorFw.png"/>
 </p>
 
-### 4. Add new student.
+### 4. Add new album.
 <p align="center">
-<img src="https://miro.medium.com/max/1400/1*E3MqoFUYvrH4A30YkK2JnA.png"/>
+<img src="https://miro.medium.com/max/1400/1*8NH0ogAL6ztljuA8Z0zXJA.png"/>
 </p>
 
-### 5. Students sorting and remove.
+### 5. Artist all album.
 <p align="center">
-<img src="https://miro.medium.com/max/1400/1*xsScYQbDXislOIiTHpyN9Q.png"/>
-</p>
-
-### 6. Add new contest.
-<p align="center">
-<img src="https://miro.medium.com/max/1400/1*lpTPmHhsjHhEKjdBJ65oWw.png"/>
-</p>
-
-### 7. All contest.
-<p align="center">
-<img src="https://miro.medium.com/max/1400/1*EQ7YLEAK06qDi4Obk1Y7dg.png"/>
-</p>
-
-### 8. Contest filter.
-<p align="center">
-<img src="https://miro.medium.com/max/1400/1*4lYEQFEXcmxOdpXfq8w7dQ.png"/>
-</p>
-
-
-### 9. Contest pagination.
-<p align="center">
-<img src="https://miro.medium.com/max/1400/1*zrPY0AtLlPzdSN5991tB4A.png"/>
+<img src="https://miro.medium.com/max/1400/1*dpuV6XMBUaml4Z_lxhhlQw.png"/>
 </p>
 
 
