@@ -29,6 +29,7 @@ Note - Guest can filter and sort the data ```https://music-chandu-album.netlify.
 <img src="https://miro.medium.com/max/1400/1*1wwSmykw_5KPzLjHkvorFw.png"/>
 </p>
 
+```Only authenticate artist can only see their data ,what they added```
 ### 4. Add new album.
 <p align="center">
 <img src="https://miro.medium.com/max/1400/1*8NH0ogAL6ztljuA8Z0zXJA.png"/>
