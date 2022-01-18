@@ -1,0 +1,27 @@
+.show__side-bar{
+    position: fixed;
+    width: 24.5vw;
+    top:0;
+    left:0;
+    background-color:white;
+    color:rgb(0, 0, 0);
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    overflow-x: hidden;
+}
+
+.show__side-bar>img{
+    margin: 5% 0 0 91%;
+    cursor: pointer;
+}
+
+.show__side-bar>p{
+    transition: 0.5s;
+    overflow-x: hidden;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6%;
+    cursor: pointer;
+}
+

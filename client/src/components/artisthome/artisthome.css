@@ -1,0 +1,63 @@
+.artisthome__parent{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.artist__home-sidebar{
+    width: 20vw;
+    height: 100vh;
+    background-color: #121d27;
+    color:white;
+    border-right: 10px solid #1976D2;
+}
+
+.artist__home-quote{
+    width: 96%;
+    padding-top: 8%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.artist__home-sidebar>h3{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.admin__home-live-people{
+    width: 99%;
+    border-top: 1px solid rgb(167, 165, 165);
+    border-bottom: 1px solid rgb(167, 165, 165);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+/* admingraph1 style */
+.artist__stats-parent{
+    height: 30vh;
+    width: 80vw;
+    padding: 2%;
+    display: flex; 
+    margin:10% 0 0 0  
+}
+
+.artist__stats-parent>div{
+    font-size: 30px;
+    width: 50vw;
+    text-align: center;
+    margin-right: 8%;
+    padding: 1%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.artist__stats-child{
+    font-size: 60px;
+}
+

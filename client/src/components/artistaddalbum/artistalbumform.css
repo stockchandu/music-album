@@ -1,0 +1,86 @@
+.artist__main-parent{
+    width: 100%;
+    display:flex;
+    height: 100%;
+}
+
+.artist__main-parent>div:nth-child(1){
+    width: 30%;
+    height: 85vh;
+}
+
+.artist__main-parent>div:nth-child(2){
+    width: 100%;
+    border-left: 11px solid #1DB954;
+}
+
+
+.artist__album__form-container{
+    width: 98%;
+    background-color: white;
+    padding: 1%;
+}
+
+.artist__album__form-input{
+    width: 100%;
+}
+
+.artist__album__form-input>div{
+    width: 100%;
+    margin: 1%;
+}
+
+.artist__album__form-input>div>div{
+    margin:3% 0 2% 0;
+    font-weight: 600;
+    color: black;
+    font-size: 17px;
+}
+
+.artist__album__form-input>div>input{
+    width: 95%;
+    height: 6vh;
+    padding: 0 0 0 2%;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.artist__album__form-input>div>input::placeholder{
+    font-weight: 600;
+    color: black;
+}
+
+.artist__album__form-input>div>select{
+    width: 98%;
+    height: 7vh;
+    font-weight: 600;
+    padding: 0 0 0 1%;
+    font-size: 15px;
+    outline: none;
+}
+
+.artist__album-btn{
+    width:100%;
+    margin:55% 0 0 0;
+    
+}
+
+.artist__album-btn>button{
+    width:100%;
+    height: 8vh;
+    background-color: #1DB954;
+    border: 0;
+    font-weight: 800;
+    color: white;
+    font-size: 15px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(163, 162, 162, 0.2), 0 6px 20px 0 rgba(167, 162, 162, 0.19);
+    cursor: pointer;
+}
+
+.student__list>div:nth-child(2){
+    overflow-y: scroll;
+    height: 92vh;
+    margin-top: -3%;
+}

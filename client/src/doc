@@ -1,0 +1,17 @@
+
+login url --> http://localhost:3000/artist-login
+artist signup --> /artist-signup
+add album and song --> /add-album-song;
+artist home --> /artist-home
+artist profile --> /artist-profile
+all-song --> /all-song/:id
+show all album --> /
+
+
+API Details:
+..-> artist login = http://localhost:2345/artist_login
+..-> artist register = http://localhost:2345/artist_register
+..-> artist create album = http://localhost:2345/create_album
+..-> get artist album = http://localhost:2345/all_album/:artist_id
+..-> sort artist album ascending = http://localhost:2345/artist_all_album/sort?year="ascending_order"
+

@@ -1,0 +1,32 @@
+.song__parent{
+    color: white;
+    width: 97.5%;
+    height: 25vh;
+    border: 3px solid #1DB954;;
+    padding: 1%;
+    margin: 1% 0 0 0 ;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.song__style{
+    width: 100%;
+    margin-top: 1%;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #cccccc;
+    border-radius: 0;
+    color: white;
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    background-color: #1DB954;
+    border-radius: 50%;
+    color: white;
+  }
+  
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: rgba(177,212,224, .7);
+  }

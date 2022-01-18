@@ -1,0 +1,73 @@
+.artist__profile-parent{
+    width: 80%;
+    margin:5% auto 0 auto;
+    border: 1px solid rgb(204, 204, 204);
+    height: 70vh;
+    display: flex;
+    color: white;
+}
+
+.artist__profile-parent>div:nth-child(1){
+    width: 15vw;
+    border-right: 1px solid rgb(187, 186, 186);
+}
+
+.artist__profile-parent>div:nth-child(2){
+    width: 60vw;
+    padding: 2%;
+}
+
+.artist__profile_child2-element>span{
+    margin-bottom: 10%;
+}
+
+.artist__profile-child-2>div{
+   height: 6vh;
+   width: 100%;
+}
+
+.artist__profile_child2-element>input{
+    margin-right: 2%;
+    height: 4vh;
+    outline: none;
+    width: 15vw;
+    padding-left: 1%;
+    border: 1px solid #DDDEE1;
+    color: rgb(170, 170, 170);
+}
+
+.artist__profile_child2-element>button{
+    width: 8vw;
+    height: 5vh;
+    background-color: #2D8CF0;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.artist__profile-child-1>div:nth-child(1){
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid rgb(226, 224, 224);
+    margin: 10% 0 0 25%
+}
+
+.artist__profile-child-1>div:nth-child(1)>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.artist__profile-child-1>div:nth-child(2){
+    width: 100%;
+    margin: 5% 0 0 0;
+    border: 1px solid rgb(216, 215, 215);
+    height: 5vh;
+    font-size: 18px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
