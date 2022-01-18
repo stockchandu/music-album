@@ -126,7 +126,7 @@ export const LoginForm = () => {
                             >
                                 Login
                             </Button>
-                            <Grid container>
+                            {/* <Grid container>
                                 <Grid item xs>
                                     <Button
                                         type="submit"
@@ -136,7 +136,7 @@ export const LoginForm = () => {
                                         forget password
                                     </Button>
                                 </Grid>
-                            </Grid>
+                            </Grid> */}
                             <Grid item>
 
                                 <p

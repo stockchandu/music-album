@@ -139,6 +139,7 @@ export const SignupForm = () => {
                                         variant="text"
                                         sx={{ mt: 0, mb: 2, ml: 0 }}
                                         style={{ fontSize: '13px' }}
+                                        onClick={() => { history.push("/artist-login") }}
                                     >
                                         Already have account ?
                                     </Button>

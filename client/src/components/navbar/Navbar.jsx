@@ -1,7 +1,6 @@
 import { AppBar, Box, Toolbar, Typography, Button, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
 import { useState } from "react";
 import "./navbar.css";
 import { useHistory, useLocation } from "react-router-dom";
@@ -64,7 +63,7 @@ export const Navbar = () => {
                             sx={{ mr: 2 }}
                         >
                             {
-                                pathname === "/" ||
+                                pathname === "/search" ||
                                     pathname === "/artist-signup" ||
                                     pathname === "/artist-login" ?
                                     null :
@@ -83,6 +82,7 @@ export const Navbar = () => {
                             variant="h5"
                             component="div"
                             sx={{ flexGrow: 1 }}
+                            onClick={()=>{history.push("/search")}}
                         >
                             MusicFY <MusicNoteIcon />
                         </Typography>

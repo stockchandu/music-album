@@ -41,14 +41,16 @@ function App() {
           <Route exact path="/artist-login">
             <LoginParent />
           </Route>
+          <Route exact path="/all-song/:id">
+            <GuestSongParent />
+          </Route>
+         
           <Route exact path="/:id">
             <GuestAlbumParent />
           </Route>
           <Redirect from='/' to="/search" />
-          <Route exact path="/all-song/:id">
-            <GuestSongParent />
-          </Route>
           <Route path='*' exact={true} component={NotFound} />
+          
         </Switch>
       </Router>
     </>
